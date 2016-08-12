@@ -1,14 +1,16 @@
 {
-  "name": "MD5",
-  "description": "MD5trans",
-  "version": "1.1",
+  "name": "SHA",
+  "description": "SHAtrans",
+  "version": "0.1",
+  "manifest_version": 2,
+  "offline_enabled": true,
   "browser_action": {
-    "default_title": "MD5",
+    "default_title": "SHA",
     "default_popup": "popup.html",
     "default_icon": "logo.png"
   },
   "permissions": [
     "clipboardWrite", "tabs"
-  ],
-  "manifest_version": 2
+  ]
+  
 }
