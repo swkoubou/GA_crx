@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
 	SHA-1
 	Copyright (C) 2007 MITSUNARI Shigeo at Cybozu Labs, Inc.
@@ -1063,4 +1062,3 @@ new function () {
     return t
   }) : "undefined" !== typeof exports ? ("undefined" !== typeof module && module.exports && (module.exports = t), exports = t) : G.jsSHA = t
 })(this);
->>>>>>> origin/eraiza
