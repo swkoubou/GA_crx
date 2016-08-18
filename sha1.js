@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
 	SHA-1
 	Copyright (C) 2007 MITSUNARI Shigeo at Cybozu Labs, Inc.
@@ -679,7 +678,7 @@ var CybozuLabs = {
 new function () {
   CybozuLabs.SHA1.calc = navigator.userAgent.match(/Firefox/) ? CybozuLabs.SHA1.calc_Fx : CybozuLabs.SHA1.calc_std;
 };
-=======
+
 /*
  A JavaScript implementation of the SHA family of hashes, as
  defined in FIPS PUB 180-4 and FIPS PUB 202, as well as the corresponding
@@ -1063,4 +1062,3 @@ new function () {
     return t
   }) : "undefined" !== typeof exports ? ("undefined" !== typeof module && module.exports && (module.exports = t), exports = t) : G.jsSHA = t
 })(this);
->>>>>>> origin/eraiza
