@@ -1,11 +1,11 @@
 {
-  "name": "MD5",
-  "description": "MD5trans",
-  "version": "1.1",
+  "name": "PASSmake",
+  "description": "SHA1trans",
+  "version": "1.1.2",
   "browser_action": {
-    "default_title": "MD5",
-    "default_popup": "popup.html",
-    "default_icon": "logo.png"
+    "default_title": "pasMake",
+    "default_popup": "main.html",
+    "default_icon": "key.png"
   },
   "permissions": [
     "clipboardWrite", "tabs"
