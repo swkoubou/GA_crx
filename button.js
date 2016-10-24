@@ -3,7 +3,7 @@ window.onload = function() {
    var seed = document.getElementById('input1').value;
    document.getElementById('input3').value = CybozuLabs.SHA1.calc(seed);
  });
-  document.getElementById('hogehoge').addEventListener("click", function hogehoge() {
+  document.getElementById('cut16').addEventListener("click", function hogehoge() {
     var str=  document.getElementById('input3').value;
     document.getElementById('input3').value=str.slice(0,16);
   });
